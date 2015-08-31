@@ -9,11 +9,11 @@
 }
 
 
-#MyWidget * form {
+#MyWidget form {
 	margin: 40px 0;
 }
 
-#MyWidget * table {
+#MyWidget table {
     border-collapse: collapse;
 }
 

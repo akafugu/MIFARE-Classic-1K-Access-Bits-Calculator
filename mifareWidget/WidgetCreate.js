@@ -1,10 +1,10 @@
 ﻿
-document.write('<link rel="stylesheet" type="text/css" href="style.css">');
+document.write('<link rel="stylesheet" type="text/css" href="mifareWidget/style.css">');
 
 var myElement = document.getElementById('myFirstWidget');
 var JavaScriptCode = document.createElement("script");
 JavaScriptCode.setAttribute('type', 'text/javascript');
-JavaScriptCode.setAttribute("src", 'data.js');
+JavaScriptCode.setAttribute("src", 'mifareWidget/data.js');
 document.getElementById('myFirstWidget').appendChild(JavaScriptCode);
 
 function update() {
