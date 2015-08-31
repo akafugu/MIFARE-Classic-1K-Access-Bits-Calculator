@@ -1,0 +1,35 @@
+﻿#MyWidget{
+	margin: 10px;
+	padding:5;
+	font-family: sans-serif;
+	font-size:small;
+	font-weight:bold;
+	color: black;
+	background-color: white;
+}
+
+
+#MyWidget * form {
+	margin: 40px 0;
+}
+
+#MyWidget * table {
+    border-collapse: collapse;
+}
+
+#MyWidget * table, #MyWidget * th, #MyWidget * td {
+    border: 1px solid DarkBlue;
+}
+
+#MyWidget * td {
+	color: black;
+}
+
+#MyWidget * th {
+    background-color: LightBlue;
+    color: black;
+}
+
+tr.greyline {
+	background-color: #ccc;
+}
