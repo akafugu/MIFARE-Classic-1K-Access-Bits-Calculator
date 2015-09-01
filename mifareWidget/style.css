@@ -15,10 +15,18 @@
 
 #MyWidget table {
     border-collapse: collapse;
+	background-color: white;
 }
 
 #MyWidget * table, #MyWidget * th, #MyWidget * td {
     border: 1px solid DarkBlue;
+	margin: 10px;
+	padding:5;
+	font-family: sans-serif;
+	font-size:small;
+	font-weight:bold;
+	color: black;
+	padding: 2px;
 }
 
 #MyWidget * td {
@@ -30,6 +38,7 @@
     color: black;
 }
 
-tr.greyline {
+.greyline, table tr:nth-of-type(even).greyline {
 	background-color: #ccc;
 }
+
