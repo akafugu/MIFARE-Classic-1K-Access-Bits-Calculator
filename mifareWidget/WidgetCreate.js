@@ -1,11 +1,11 @@
 ﻿
 document.write('<link rel="stylesheet" type="text/css" href="mifareWidget/style.css">');
 
-var myElement = document.getElementById('myFirstWidget');
+var myElement = document.getElementById('mifareWidget');
 var JavaScriptCode = document.createElement("script");
 JavaScriptCode.setAttribute('type', 'text/javascript');
 JavaScriptCode.setAttribute("src", 'mifareWidget/data.js');
-document.getElementById('myFirstWidget').appendChild(JavaScriptCode);
+document.getElementById('mifareWidget').appendChild(JavaScriptCode);
 
 function update() {
 	var bitfieldTable = [0x0,0x2,0x1,0x3,0x4,0x6,0x5,0x7]
@@ -127,5 +127,5 @@ function WidgetCallback(JSONobject) {
 
     wHTML += ('<p>' + wData.copyright + '</p></div></center>');
 
-    document.getElementById('myFirstWidget').innerHTML = wHTML;
+    document.getElementById('mifareWidget').innerHTML = wHTML;
 }

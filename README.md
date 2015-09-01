@@ -8,7 +8,7 @@ To use, simply clone the code and add this to a page:
 <script type='text/javascript'>
     wWidth = "800px"; 
     wHeight = "195px";
-    document.write('<div id="myFirstWidget"></div>');
+    document.write('<div id="mifareWidget"></div>');
     document.write('<scr'+'ipt type="text/JavaScript" src="mifareWidget/WidgetCreate.js"></scr'+'ipt>');
 </script>
 ```
